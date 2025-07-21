@@ -1,0 +1,68 @@
+.gallery-item-container {
+    width: 365px;
+    max-height: 450px;
+    padding: 10px;
+    margin-top: 12px;
+    border: 2px solid var(--title-color);
+}
+
+.gallery-item-container:hover {
+    opacity: 0.85;
+    border-color: var(--sub-title-color);
+    box-shadow: 0 0 14px var(--sub-title-color);
+}
+
+@media (max-width: 740px) {
+    .gallery-item-container {
+        width: 100%;
+    }
+}
+
+.item-title-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-family: var(--title-font-family);
+    font-size: var(--post-title-font-size);
+    font-weight: 600;
+}
+
+.gallery-item-container a,
+.gallery-item-container a:visited,
+.gallery-item-container a:active {
+    text-decoration: none;
+    color: var(--title-post-color);
+    white-space: wrap;
+}
+
+.item-description-container {
+    color: var(--description-post-color);
+    margin-top: 12px;
+    font-family: var(--text-font-family);
+    font-size: var(--post-text-font-size);
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+}
+
+.gallery-item-container:hover .svg-container svg,
+.gallery-item-container:hover .item-title-container {
+    color: var(--post-hover-color);
+    stroke: var(--post-hover-color);
+}
+
+.svg-container {
+    width: 24px;
+    height: 28px;
+    margin-top: 2px;
+}
+
+.svg-container svg {
+    stroke: var(--title-post-color);
+}
+
+.item-date-container {
+    padding-top: 15px;
+    font-size: 12px;
+    font-family: var(--text-font-family);
+}

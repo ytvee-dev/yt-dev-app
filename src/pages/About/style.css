@@ -1,0 +1,87 @@
+.about-page-big-title {
+    width: 100%;
+    border-top: 1px solid var(--title-color);
+    border-bottom: 1px solid var(--title-color);
+    text-align: center;
+    font-size: 11vw;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+@media (max-width: 800px) {
+    .about-page-big-title {
+        font-size: 65px;
+    }
+}
+
+.about-page-image-container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-page-image {
+    width: 100%;
+    border-bottom: 3px solid var(--title-color);
+}
+
+.about-page-description-container {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: var(--post-text-font-size);
+}
+
+@media (max-width: 1190px) {
+    .about-page-description-container {
+        padding: 0 20px;
+    }
+}
+
+.simple-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-page-description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-page-description-title {
+    width: 100%;
+    font-size: var(--subtitle-font-size);
+    font-weight: 600;
+}
+
+.about-page-description-text {
+    line-height: 1.7;
+}
+
+.about-page-ul {
+    padding-top: 12px;
+    padding-left: 25px;
+}
+
+.about-page-ul li {
+    margin-bottom: 20px;
+}
+
+.about-page-exp,
+.about-page-skills,
+.about-page-text {
+    max-width: 520px;
+    font-family: var(--text-font-family);
+    font-size: var(--post-text-font-size);
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+}
+
+.text-link {
+    color: var(--selection-color);
+}

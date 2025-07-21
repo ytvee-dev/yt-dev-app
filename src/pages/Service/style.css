@@ -1,0 +1,32 @@
+.service-wrapper {
+    max-width: 1200px;
+}
+
+@media (max-width: 1190px) {
+    .service-wrapper {
+        padding: 0 20px;
+    }
+}
+
+.service-description-container {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: var(--post-text-font-size);
+}
+
+.service-description-container .gallery-container {
+    margin-top: 80px;
+    text-align: left;
+}
+
+.service-description-container .gallery-container .gallery-content {
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.service-wrapper .contacts-title,
+.service-wrapper .contacts-label {
+    text-align: left;
+}
+

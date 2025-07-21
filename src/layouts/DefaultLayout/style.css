@@ -1,0 +1,13 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.default-layout {
+    padding: 32px 1%;
+    max-width: 1200px;
+    margin: auto;
+}

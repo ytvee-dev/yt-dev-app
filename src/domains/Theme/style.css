@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --dark-background: #181D26;
+    --light-background: #F2F2F2;
+
+    --toggle-background-color: #2D283E;
+    --toggle-switch-color: #F2F2F2;
+    --selection-color: #F2522E;
+
+    --background-color: #F2F2F2;
+    --title-color: #181D26;
+    --sub-title-color: #F2522E;
+    --logo-color: #F2522E;
+    --nav-item-color: #181D26;
+
+    --title-post-color: #181D26;
+    --description-post-color: #4F5359;
+    --post-text-color: #4F5359;
+
+    --button-color: #F2522E;
+    --button-text-color: #F2F2F2;
+
+    --button-hover-color: #F2CB05;
+    --button-active-color: #F2CB57;
+    --button-text-color-hover: #181D26;
+
+    --logo-hover-color: #F2CB05;
+    --logo-active-color: #F2CB57;
+
+    --post-hover-color: #F2522E;
+    --post-active-color: #F2CB57;
+
+    --nav-item-hover-color: #F2522E;
+    --nav-item-active-color: #F2CB57;
+
+    /* SIZES & OTHER*/
+
+    --nav-item-text-size: 20px;
+    --logo-font-size: 38px;
+    --fast-transition: 0.2s;
+    --flash-transition: 0.05s;
+
+    --post-title-font-size: 26px;
+    --post-text-font-size: 16px;
+
+    --subtitle-font-size: 32px;
+    --description-font-size: 20px;
+    --tooltip-font-size: 14px;
+
+    --default-title-size: 52px;
+    --default-button-font-size: 16px;
+
+    --title-font-family: "Spectral", serif;
+    --text-font-family: "Rubik", sans-serif;
+}
+
+.light {
+    --toggle-background-color: #2D283E;
+    --toggle-switch-color: #181D26;
+    --selection-color: #F2522E;
+
+    --background-color: #F2F2F2;
+    --title-gradient: linear-gradient(90deg, #7F56D9, #F2522E);
+    --title-color: #181D26;
+    --sub-title-color: #F2522E;
+    /* --logo-color: #F2CB05; */
+    --nav-item-color: #181D26;
+
+    --title-post-color: #181D26;
+    --description-post-color: #4F5359;
+    --post-text-color: #4F5359;
+
+    --button-color: #F2522E;
+    --button-text-color: #F2F2F2;
+
+    --button-hover-color: #F2CB05;
+    --button-active-color: #F2CB57;
+    --button-text-color-hover: #181D26;
+
+    /* --logo-hover-color: #F2522E; */
+    /* --logo-active-color: #F2CB57; */
+
+    --post-hover-color: #F2522E;
+    --post-active-color: #F2CB57;
+
+    --nav-item-hover-color: #F2522E;
+    --nav-item-active-color: #F2CB57;
+}
+
+.dark {
+    --toggle-background-color: #F2F2F2;
+    --toggle-switch-color: #F2F2F2;
+    --selection-color: #D9B3F2;
+
+    --background-color: #181D26;
+    --title-gradient: linear-gradient(90deg, #7F56D9, #80FFEA);
+    --title-color: #F2F2F2;
+    --sub-title-color: #D9B3F2;
+    /* --logo-color: #F2522E; */
+    --nav-item-color: #F2F2F2;
+
+    --title-post-color: #F2F2F2;
+    --description-post-color: #D0D7E1;
+    --post-text-color: #F2F2F2;
+
+    --button-color: #F2CB05;
+    --button-text-color: #4C495C;
+
+    --button-hover-color: #812BB2;
+    --button-active-color: #5F1BF2;
+    --button-text-color-hover: #D0D7E1;
+
+    /* --logo-hover-color: #F2CB57; */
+    --logo-active-color: #5F1BF2;
+
+    --post-hover-color: #D9B3F2;
+    --post-active-color: #5F1BF2;
+
+    --nav-item-hover-color: #F2522E;
+    --nav-item-active-color: #5F1BF2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: var(--fast-transition);
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: var(--selection-color);
+    color: var(--background-color);
+    /* background: var(--title-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; */
+}
+
+button {
+    user-select: none;
+}
+
+.title {
+    background: var(--title-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    user-select: none;
+}
+
+.subtitle {
+    color: var(--sub-title-color);
+    font-family: var(--text-font-family);
+}
+
+.text {
+    color: var(--description-post-color);
+}
