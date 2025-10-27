@@ -18,14 +18,14 @@ export interface Partners {
 }
 
 const partners: Partners[] = [
-    {name: 'pikabu', link: ''},
-    {name: 'xray', link: ''},
-    {name: 'start', link: ''},
-    {name: 'jg', link: ''},
-    {name: 'singularity', link: ''},
-    {name: 'friends', link: ''},
-    {name: 'avia', link: ''},
-    {name: 'synth', link: ''},
+    {name: 'pikabu', link: 'https://pikabu.ru'},
+    {name: 'xray', link: 'https://xraystand.com'},
+    {name: 'start', link: 'https://startstudio.kz'},
+    {name: 'jg', link: 'https://www.jamgalaxy.com'},
+    {name: 'singularity', link: 'https://singularitynet.io'},
+    {name: 'friends', link: 'https://www.instagram.com/community__friends'},
+    {name: 'avia', link: 'https://www.aviasales.ru/'},
+    {name: 'synth', link: 'https://www.aisynthesizer.com'},
 ];
 
 export default function HomePage() {
