@@ -1,0 +1,114 @@
+
+.footer {
+  background-color: var(--color-bg-primary);
+  border-top: 1px solid var(--color-secondary-primary);
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-8);
+  gap: var(--space-8);
+}
+
+.leftSection,
+.centerSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.centerSection {
+  align-items: center;
+
+  p {
+    font-size: var(--font-size-xs);
+    color: var(--color-secondary-primary);
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60px;
+
+  .brandText {
+    margin: auto 4px;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+  }
+}
+
+.logoText {
+  color: var(--color-accent-1-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xl);
+}
+
+.brandText {
+  color: var(--color-accent-1-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xl);
+}
+
+.email {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  font-size: var(--font-size-base);
+
+  &:hover {
+    color: var(--color-accent-1-primary);
+  }
+}
+
+.description {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: flex-end;
+}
+
+.socialTitle {
+  color: var(--color-accent-1-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  margin: 0;
+}
+
+.copyright {
+  text-align: center;
+  
+  p {
+    color: var(--color-text-primary);
+    font-size: var(--font-size-sm);
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-6);
+  }
+  
+  .rightSection {
+    align-items: center;
+  }
+  
+  .socialIcons {
+    justify-content: center;
+  }
+}

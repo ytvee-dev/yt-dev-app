@@ -1,0 +1,8 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

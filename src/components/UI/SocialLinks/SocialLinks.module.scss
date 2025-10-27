@@ -1,0 +1,22 @@
+.socialIcons {
+  display: flex;
+  gap: var(--space-4);
+
+  .socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--color-secondary-primary);
+
+    &:hover {
+      color: var(--color-accent-1-primary);
+    }
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}

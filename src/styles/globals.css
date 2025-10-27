@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* Light theme colors */
+    --color-bg: #F5F0E6;
+    --color-text: #212121;
+    --color-accent-1: #D4A017;
+    --color-accent-2: #A00023;
+    --color-secondary: #9E9E9E;
+
+    /* Dark theme colors */
+    --color-bg-dark: #212121;
+    --color-text-dark: #F5F0E6;
+    --color-accent-1-dark: #FFC107;
+    --color-accent-2-dark: #A00023;
+    --color-secondary-dark: #9E9E9E;
+
+    /* Font families */
+    --font-heading: "Fira Sans", sans-serif;
+    --font-body: "Fira Code", monospace;
+
+    /* Font sizes */
+    --font-size-xs: 0.75rem; /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-lg: 1.125rem; /* 18px */
+    --font-size-xl: 1.25rem; /* 20px */
+    --font-size-2xl: 1.5rem; /* 24px */
+    --font-size-3xl: 1.875rem; /* 30px */
+    --font-size-4xl: 2.25rem; /* 36px */
+    --font-size-5xl: 3rem; /* 48px */
+    --font-size-6xl: 3.75rem; /* 60px */
+
+    /* Font weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* Letter spacing */
+    --letter-spacing-tight: -0.025em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.025em;
+
+    /* Spacing scale (based on 4px grid) */
+    --space-0: 0;
+    --space-1: 0.25rem; /* 4px */
+    --space-2: 0.5rem; /* 8px */
+    --space-3: 0.75rem; /* 12px */
+    --space-4: 1rem; /* 16px */
+    --space-5: 1.25rem; /* 20px */
+    --space-6: 1.5rem; /* 24px */
+    --space-8: 2rem; /* 32px */
+    --space-10: 2.5rem; /* 40px */
+    --space-12: 3rem; /* 48px */
+    --space-16: 4rem; /* 64px */
+    --space-20: 5rem; /* 80px */
+    --space-24: 6rem; /* 96px */
+    --space-32: 8rem; /* 128px */
+    --space-40: 10rem; /* 160px */
+    --space-48: 12rem; /* 192px */
+    --space-56: 14rem; /* 224px */
+    --space-64: 16rem; /* 256px */
+
+    /* Container max widths */
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+    --container-2xl: 1536px;
+
+    /* Border radius */
+    --radius-none: 0;
+    --radius-sm: 0.125rem; /* 2px */
+    --radius-base: 0.25rem; /* 4px */
+    --radius-md: 0.375rem; /* 6px */
+    --radius-lg: 0.5rem; /* 8px */
+    --radius-xl: 0.75rem; /* 12px */
+    --radius-2xl: 1rem; /* 16px */
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-base: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* Light theme */
+[data-theme="light"] {
+    --color-bg-primary: var(--color-bg);
+    --color-text-primary: var(--color-text);
+    --color-accent-1-primary: var(--color-accent-1);
+    --color-accent-2-primary: var(--color-accent-2);
+    --color-secondary-primary: var(--color-secondary);
+    --decoration-color: var(--color-accent-2);
+    --grey-filter: none;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+    --color-bg-primary: var(--color-bg-dark);
+    --color-text-primary: var(--color-text-dark);
+    --color-accent-1-primary: var(--color-accent-1-dark);
+    --color-accent-2-primary: var(--color-accent-2-dark);
+    --color-secondary-primary: var(--color-secondary-dark);
+    --decoration-color: var(--color-accent-1-dark);
+    --grey-filter: grayscale(100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+
+    &::selection {
+        background-color: var(--color-text-primary);
+        color: var(--color-bg-primary);
+    }
+}
+
+html {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: var(--line-height-normal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-tight);
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    line-height: var(--line-height-normal);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

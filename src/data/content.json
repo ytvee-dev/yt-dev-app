@@ -1,0 +1,245 @@
+{
+  "ru": {
+    "navigation": {
+      "home": "главная",
+      "services": "услуги"
+    },
+    "pages": {
+      "home": {
+        "description": "я разработчик веб-приложений. мне нравится создавать понятные и содержательные цифровые продукты.\n\nмои основные инструменты — typescript, react и next.js, но я уверенно работаю на всех этапах цикла разработки — от бэкенд-логики до пользовательского опыта и оптимизации производительности.\n\nсейчас занимаюсь созданием интерфейсов для ии сервисов и web3 платформ, уделяя особое внимание чистой архитектуре, удобству использования и масштабируемости. помимо основной работы, создаю образовательные материалы — мне искренне нравится делать сложные вещи простыми. также, вместе с командой берем проекты на разработку. всю информацию ищите в услугах.\n\nменя вдохновляет баланс логики и творчества в инженерии — когда дизайн, код и пользовательский опыт работают целостно. ценю понятный пользовательский интерфейс, продуманные процессы и проекты, которые приносят реальную пользу.",
+        "partners": "партнеры и клиенты",
+        "resumeCTA": {
+          "main": "скачать резюме можно по ",
+          "linkText": "ссылке",
+          "link": "https://drive.google.com/file/d/1vQRAOZHq_6SBe93EDgYD1V34I10KX9X2/view?usp=sharing"
+        }
+      },
+      "services": {
+        "hero": {
+          "title": "создаём веб-приложения, которые масштабируются вместе с вашим бизнесом",
+          "description": "~ разработка веб-приложений для компаний и стартапов\u2028~ инженеры и дизайнеры с опытом в сложных продуктах",
+          "buttonText": "обсудить проект"
+        },
+        "trust": {
+          "title": "нам доверяют",
+          "links": [
+            "https://pikabu.ru",
+            "https://xraystand.com",
+            "https://startstudio.kz",
+            "https://www.jamgalaxy.com",
+            "https://ai-ui-constructor.singularitynet.io",
+            "https://superintelligence.io",
+            "https://www.aisynthesizer.com/"
+          ]
+        },
+        "cooperation": {
+          "title": "сотрудничество",
+          "boxes": [
+            {
+              "subtitle": "работая с нами вы получаете",
+              "text": "архитектуру, готовую к росту и нагрузке.\nчистый, поддерживаемый код без лишних зависимостей.\nудобные интерфейсы, понятные пользователю.\nнастроенную производительность и безопасность.\nпрозрачные процессы и постоянный контакт с командой."
+            },
+            {
+              "subtitle": "формат сотрудничества",
+              "text": "вы оплачиваете работу специалистов — как при найме разработчика. без агентских накруток и посредников. при этом получаете продукт уровня студии: продуманный, масштабируемый, готовый к развитию."
+            },
+            {
+              "subtitle": "конфиденциальность",
+              "text": "большая часть наших проектов под nda, поэтому мы не публикуем их. при личном общении покажу реальные кейсы и расскажу, как подходим к решению задач."
+            }
+          ],
+          "buttons": [
+            "оставить заявку",
+            "написать в wa"
+          ]
+        },
+        "contacts": {
+          "title": "контакты",
+          "description": "если вам нужен партнёр, который понимает, как превращать идею в стабильный продукт — напишите мне.\u2028обсудим задачу и подберём формат, подходящий под ваш масштаб.",
+          "subBox": {
+            "title": "пишите, где удобнее",
+            "links": {
+              "telegram": "@ytvee",
+              "email": "yevgeniy.tyan.v@gmail.com"
+            }
+          }
+        }
+      }
+    },
+    "footer": {
+      "email": "yevgeniy.tyan.v@gmail.com",
+      "description": "разработка веб-приложений",
+      "socialNetworks": {
+        "title": "соц сети",
+        "links": {
+          "github": "https://github.com/ytvee",
+          "linkedin": "https://linkedin.com/ytvee",
+          "instagram": "https://www.instagram.com/yt.dev.tea"
+        }
+      },
+      "copyright": "© copyright 2024-2025. made by ytvee"
+    }
+  },
+  "en": {
+    "navigation": {
+      "home": "home",
+      "services": "services"
+    },
+    "pages": {
+      "home": {
+        "description": "i'm a web application developer. i enjoy creating clear and meaningful digital products.\n\nmy main tools are typescript, react and next.js, but i confidently work at all stages of the development cycle — from backend logic to user experience and performance optimization.\n\ncurrently working on creating interfaces for ai services and web3 platforms, paying special attention to clean architecture, usability and scalability. in addition to my main work, i create educational materials — i genuinely enjoy making complex things simple. also, together with the team we take on development projects. find all the information in services.\n\ni'm inspired by the balance of logic and creativity in engineering — when design, code and user experience work holistically. i value clear user interfaces, thoughtful processes and projects that bring real benefit.",
+        "partners": "partners and clients",
+        "resumeCTA": {
+          "main": "download resume via ",
+          "linkText": "link",
+          "link": "https://drive.google.com/file/d/1vQRAOZHq_6SBe93EDgYD1V34I10KX9X2/view?usp=sharing"
+        }
+      },
+      "services": {
+        "hero": {
+          "title": "we create web applications that scale with your business",
+          "description": "~ web application development for companies and startups\u2028~ engineers and designers with experience in complex products",
+          "buttonText": "discuss project"
+        },
+        "trust": {
+          "title": "trusted by",
+          "links": [
+            "https://pikabu.ru",
+            "https://xraystand.com",
+            "https://startstudio.kz",
+            "https://www.jamgalaxy.com",
+            "https://ai-ui-constructor.singularitynet.io",
+            "https://superintelligence.io",
+            "https://www.aisynthesizer.com/"
+          ]
+        },
+        "cooperation": {
+          "title": "cooperation",
+          "boxes": [
+            {
+              "subtitle": "working with us you get",
+              "text": "architecture ready for growth and load.\nclean, maintainable code without unnecessary dependencies.\nconvenient interfaces that are clear to users.\nconfigured performance and security.\ntransparent processes and constant contact with the team."
+            },
+            {
+              "subtitle": "cooperation format",
+              "text": "you pay for the work of specialists — like when hiring a developer. without agency markups and intermediaries. at the same time, you get a studio-level product: thoughtful, scalable, ready for development."
+            },
+            {
+              "subtitle": "confidentiality",
+              "text": "most of our projects are under nda, so we don't publish them. in personal communication, i'll show real cases and tell you how we approach solving problems."
+            }
+          ],
+          "buttons": [
+            "leave application",
+            "write in wa"
+          ]
+        },
+        "contacts": {
+          "title": "contacts",
+          "description": "if you need a partner who understands how to turn an idea into a stable product — write to me.\u2028we'll discuss the task and choose a format that suits your scale.",
+          "subBox": {
+            "title": "write where it's convenient",
+            "links": {
+              "telegram": "@ytvee",
+              "email": "yevgeniy.tyan.v@gmail.com"
+            }
+          }
+        }
+      }
+    },
+    "footer": {
+      "email": "yevgeniy.tyan.v@gmail.com",
+      "description": "web application development",
+      "socialNetworks": {
+        "title": "social networks",
+        "links": {
+          "github": "https://github.com/ytvee",
+          "linkedin": "https://linkedin.com/ytvee",
+          "instagram": "https://www.instagram.com/yt.dev.tea"
+        }
+      },
+      "copyright": "© copyright 2024-2025. made by ytvee"
+    }
+  },
+  "kz": {
+    "navigation": {
+      "home": "басты",
+      "services": "қызметтер"
+    },
+    "pages": {
+      "home": {
+        "description": "мен веб-қосымшаларды әзірлейтін дамытушымын. түсінікті және мазмұнды цифрлық өнімдер жасауға ұнайды.\n\nменің негізгі құралдарым — typescript, react және next.js, бірақ мен дамыту циклінің барлық кезеңдерінде сенімді жұмыс істеймін — бэкенд-логикадан пайдаланушы тәжірибесі мен өнімділікті оңтайландыруға дейін.\n\nқазір ии сервистері мен web3 платформалары үшін интерфейстер жасаумен айналысамын, таза архитектураға, пайдалануға ыңғайлылыққа және масштабталуға ерекше назар аудара отырып. негізгі жұмысымнан басқа, білім беру материалдарын жасаймын — күрделі нәрселерді қарапайым етуді шынайы ұнатамын. сонымен қатар, командамен бірге дамыту жобаларын аламыз. барлық ақпаратты қызметтерде іздеңіз.\n\nмені инженериядағы логика мен шығармашылықтың теңгерімі шабыттандырады — дизайн, код және пайдаланушы тәжірибесі біртұтас жұмыс істегенде. түсінікті пайдаланушы интерфейсін, ойластырылған процестерді және нақты пайда әкелетін жобаларды бағалаймын.",
+        "partners": "серіктестер мен клиенттер",
+        "resumeCTA": {
+          "main": "резюмені жүктеп алу үшін ",
+          "linkText": "сілтеме",
+          "link": "https://drive.google.com/file/d/1vQRAOZHq_6SBe93EDgYD1V34I10KX9X2/view?usp=sharing"
+        }
+      },
+      "services": {
+        "hero": {
+          "title": "сіздің бизнесіңізбен бірге масштабталатын веб-қосымшалар жасаймыз",
+          "description": "~ компаниялар мен стартаптар үшін веб-қосымшаларды әзірлеу\u2028~ күрделі өнімдерде тәжірибесі бар инженерлер мен дизайнерлер",
+          "buttonText": "жобаны талқылау"
+        },
+        "trust": {
+          "title": "бізге сенеді",
+          "links": [
+            "https://pikabu.ru",
+            "https://xraystand.com",
+            "https://startstudio.kz",
+            "https://www.jamgalaxy.com",
+            "https://ai-ui-constructor.singularitynet.io",
+            "https://superintelligence.io",
+            "https://www.aisynthesizer.com/"
+          ]
+        },
+        "cooperation": {
+          "title": "ынтымақтастық",
+          "boxes": [
+            {
+              "subtitle": "бізбен жұмыс істегенде сіз аласыз",
+              "text": "өсу мен жүктемеге дайын архитектура.\nқосымша тәуелділіктерсіз таза, қолдау көрсетілетін код.\nпайдаланушыға түсінікті ыңғайлы интерфейстер.\nконфигурацияланған өнімділік пен қауіпсіздік.\nмемлекеттік процестер мен командамен тұрақты байланыс."
+            },
+            {
+              "subtitle": "ынтымақтастық форматы",
+              "text": "сіз мамандардың жұмысын төлейсіз — дамытушыны жалдау сияқты. агенттік үстемелер мен делдалдарсыз. сонымен бірге сіз студия деңгейіндегі өнімді аласыз: ойластырылған, масштабталатын, дамытуға дайын."
+            },
+            {
+              "subtitle": "құпиялылық",
+              "text": "біздің жобаларымыздың көп бөлігі nda астында, сондықтан оларды жарияламаймыз. жеке сөйлесуде нақты кейстерді көрсетемін және мәселелерді шешуге қалай көзқарас танытатынымызды айтамын."
+            }
+          ],
+          "buttons": [
+            "өтініш қалдыру",
+            "wa-ға жазу"
+          ]
+        },
+        "contacts": {
+          "title": "байланыстар",
+          "description": "егер сізге идеяны тұрақты өнімге айналдыруды түсінетін серіктес қажет болса — маған жазыңыз.\u2028тапсырманы талқылаймыз және сіздің масштабыңызға сәйкес форматты таңдаймыз.",
+          "subBox": {
+            "title": "ыңғайлы жерде жазыңыз",
+            "links": {
+              "telegram": "@ytvee",
+              "email": "yevgeniy.tyan.v@gmail.com"
+            }
+          }
+        }
+      }
+    },
+    "footer": {
+      "email": "yevgeniy.tyan.v@gmail.com",
+      "description": "веб-қосымшаларды әзірлеу",
+      "socialNetworks": {
+        "title": "әлеуметтік желілер",
+        "links": {
+          "github": "https://github.com/ytvee",
+          "linkedin": "https://linkedin.com/ytvee",
+          "instagram": "https://www.instagram.com/yt.dev.tea"
+        }
+      },
+      "copyright": "© copyright 2024-2025. made by ytvee"
+    }
+  }
+}
