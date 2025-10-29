@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fira_Sans, Fira_Code } from "next/font/google";
 import "./styles/globals.css";
+import React from "react";
 
 if (typeof window !== 'undefined') {
   import('@/utils/suppressWarnings').then(({ suppressDevelopmentWarnings }) => {
@@ -21,18 +22,18 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "YT DEV - Web Application Development",
+  title: "YT | Web Application Development",
   description: "Professional web application development services. We create scalable web applications that grow with your business.",
   keywords: "web development, application development, software development, YT DEV",
-  authors: [{ name: "YT DEV" }],
+  authors: [{ name: "ytvee" }],
   creator: "YT DEV",
   publisher: "YT DEV",
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    url: "https://ytdev.com",
-    title: "YT DEV - Web Application Development",
+    url: "https://ytvee.com",
+    title: "YT | Web Application Development",
     description: "Professional web application development services. We create scalable web applications that grow with your business.",
     siteName: "YT DEV",
   },
