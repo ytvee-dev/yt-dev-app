@@ -152,8 +152,12 @@
     font-size: var(--font-size-base);
   }
 
+  .partners {
+    padding-top: 1px !important;
+  }
+
   .partnersTitle {
-    top: 50px;
+    top: -13px;
     font-size: var(--font-size-sm);
     line-height: var(--line-height-tight);
   }
