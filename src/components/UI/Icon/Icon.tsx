@@ -22,7 +22,7 @@ export const Icon: React.FC<IconProps> = ({
             style={{color}}
             aria-hidden="true"
         >
-            <use href={`/sprite.svg#${name}`}/>
+            <use href={`/sprite.svg#${name}`} xlinkHref={`/sprite.svg#${name}`}/>
         </svg>
     );
 };
